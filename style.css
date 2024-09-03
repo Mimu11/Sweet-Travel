@@ -55,7 +55,7 @@ nav li {
 }
 
 .banner {
-    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: url(Images/Group\ 1.png);
 
     background-repeat: no-repeat;
     width: 100%;
@@ -159,9 +159,108 @@ nav li {
     margin-bottom: 30px;
 }
 
+.destination {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.first-photo-container,
+.second-photo-container,
+.third-photo-container {
+    display: flex;
+    gap: 20px;
+    margin: 30px auto;
+}
+
+.first-card {
+    background-color: rgba(250, 235, 215, 0.6);
+    width: 500px;
+    height: 280px;
+    padding: 20px;
+    border: none;
+    border-radius: 18px;
+
+}
+
+.second-card {
+    background-color: rgba(127, 255, 212, 0.112);
+    width: 500px;
+    height: 280px;
+    padding: 20px;
+    border: none;
+    border-radius: 18px;
+
+}
+
+.third-card,
+.forth-card {
+    background-color: rgba(165, 42, 42, 0.132);
+    width: 500px;
+    height: 280px;
+    padding: 20px;
+    border: none;
+    border-radius: 18px;
+
+}
+
+.first-card-container {
+    display: flex;
+    gap: 20px;
+    margin: 30px 50px;
+}
+
+.second-card-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px) {
     body {
-        margin: 0px 30px;
+        margin: 0px auto;
+
+        width: 560px;
+
+
     }
 
     nav,
@@ -181,48 +280,61 @@ nav li {
         width: 560px;
         margin: 0px;
         margin-left: 20px;
-
     }
 
     .banner-input {
 
-        margin: 0px 0px;
+        margin: 0px 30px;
         justify-content: center;
-        padding: 10px;
-
-
-
+        padding: 20px;
     }
 
     .banner-title {
         font-weight: 900;
         font-size: 22px;
         margin-top: 0px;
-
     }
 
     .banner-content {
         text-align: center;
-
     }
 
     .banner-input input {
         padding-left: 100px;
         padding-right: 100px;
-
     }
 
     .banner-input button {
         padding-left: 140px;
         padding-right: 140px;
-
     }
-
-
 
     .popular-tours {
         margin: 0px;
         gap: 0px;
     }
 
+
+
+    .first-photo-container,
+    .second-photo-container,
+    .third-photo-container {
+        display: flex;
+        flex-direction: column;
+        width: 560px;
+    }
+
+    .first-card-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .second-card-container {
+        align-items: normal;
+    }
+
+    .destination {
+        text-align: center;
+    }
 }
