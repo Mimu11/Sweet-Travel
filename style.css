@@ -217,7 +217,65 @@ nav li {
     align-items: center;
 }
 
+.simple-place {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
 
+}
+
+.place-content {
+    width: 532px;
+    height: 400px;
+}
+
+.simple-place img {
+    width: 600px;
+}
+
+.latter-content input {
+    margin-bottom: 20px;
+    padding: 20px 60px;
+    background: #ece9e9;
+    border-radius: 8px;
+    border: none;
+}
+
+.latter-content {
+    border: 2px solid tomato;
+    border-radius: 18px;
+    padding: 30px;
+
+
+}
+
+.latter-content button {
+    padding: 20px 100px;
+}
+
+.news-latter {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+
+}
+
+footer .nav-img {
+    justify-content: center;
+
+
+
+}
+
+footer {
+    text-align: center;
+}
+
+
+.line {
+    border-top: 1px solid rgba(150, 150, 150, 0.488);
+    margin: 50px 150px;
+}
 
 
 
